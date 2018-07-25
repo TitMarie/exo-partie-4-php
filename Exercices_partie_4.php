@@ -30,15 +30,15 @@ echo "<br>";
 
 function resultat($premier, $deuxieme) {
     if ($premier > $deuxieme) {
-        echo "Le premier nombre est plus grand";
+        return "Le premier nombre est plus grand";
     } else if ($premier < $deuxieme) {
-        echo "Le premier nombre est plus petit";
+        return "Le premier nombre est plus petit";
     } else {
-        echo "Les deux nombres sont identiques";
+        return "Les deux nombres sont identiques";
     }
 }
 
-resultat(2,20);
+echo resultat(2,20);
 echo "<br>";
 
 // exercice 5
