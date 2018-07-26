@@ -78,11 +78,7 @@ echo "<br>";
 
 // exercice 8
 
-$p = 138;
-$d = 63;
-$t = 1789;
-
-function addition($p, $d, $t) {
+function addition($p = 138, $d = 63, $t = 1789) {
     return $p + $d + $t;
 }
 
